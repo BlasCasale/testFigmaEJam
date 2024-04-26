@@ -1,0 +1,18 @@
+@media screen and (min-width: 360px) {
+  .boxComponentStep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    gap: 8px;
+  }
+
+  .pStep {
+    font-size: 12px;
+  }
+
+  .current {
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,41 @@
+@media screen and (min-width: 360px) {
+  .divTopHeader {
+    background-color: #252F3D;
+    height: 42px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .containerCartel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .pHeaderCartel {
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .hiddenVector {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .hidden {
+    display: flex;
+  }
+
+  .hiddenVector {
+    display: none;
+  }
+}

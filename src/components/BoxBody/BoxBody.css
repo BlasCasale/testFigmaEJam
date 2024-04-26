@@ -1,0 +1,10 @@
+@media screen and (min-width: 360px) {
+  .boxBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    gap: 24px;
+  }
+}
