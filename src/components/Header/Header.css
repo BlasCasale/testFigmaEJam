@@ -1,0 +1,16 @@
+@media screen and (min-width: 360px) {
+  header {
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 20px 0px;
+    gap: 20px;
+    background-color: #FFFFFF;
+  }
+
+  .boxBottonHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

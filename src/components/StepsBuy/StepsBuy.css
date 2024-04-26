@@ -1,0 +1,9 @@
+@media screen and (min-width: 360px) {
+  .boxStepsBuy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    gap: 5px;
+  }
+}
