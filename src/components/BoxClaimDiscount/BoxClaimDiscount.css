@@ -1,0 +1,28 @@
+@media screen and (min-width: 360px) {
+  .boxClaimDiscount {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .borderedBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 12px;
+    border: solid 1px #CFCFCF;
+    border-radius: 4px;
+  }
+
+  .pRed {
+    font-size: 12px;
+    font-weight: 500;
+    color: #F82C2C;
+    text-decoration: underline;
+  }
+}
