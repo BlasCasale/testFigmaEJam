@@ -1,0 +1,21 @@
+@media screen and (min-width: 320px) {
+  .boxShipping {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 17px;
+    width: 289px;
+    justify-content: center;
+  }
+
+  .pShipping {
+    color: #4D5254;
+    font-size: 12px;
+  }
+
+  .minorBoxShipping {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}

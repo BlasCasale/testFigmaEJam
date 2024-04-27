@@ -1,0 +1,9 @@
+@media screen and (min-width: 360px) {
+  .methodPayment {
+    display: flex;
+    width: 180px;
+    height: 14px;
+    gap: 2px;
+    align-items: center;
+  }
+}

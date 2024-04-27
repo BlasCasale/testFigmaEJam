@@ -1,0 +1,27 @@
+@media screen and (min-width: 360px) {
+  .containerThick {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 80px;
+    gap: 16px;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .minBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .pInfoThick {
+    font-size: 12px;
+  }
+
+  .spanInfoThick {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}

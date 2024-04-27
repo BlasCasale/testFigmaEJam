@@ -1,0 +1,23 @@
+@media screen and (min-width: 360px) {
+  .greenBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 51px;
+    background-color: #59AE43;
+    border-radius: 50px;
+  }
+
+  .minorBoxGreen {
+    display: flex;
+    gap: 16px;
+    height: 19px;
+    align-items: center;
+  }
+
+  .pMinBox {
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+}
