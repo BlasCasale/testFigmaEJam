@@ -4,11 +4,11 @@ import StepsBuy from '../StepsBuy/StepsBuy'
 import MiddleText from '../MiddleText/MiddleText'
 import BigImage from '../BigImage/BigImage'
 import BoxInfo from '../BoxInfo/BoxInfo'
-import './BoxBody.css'
 import ThickContainer from '../ThickContainer/ThickContainer'
 import BoxDiscount from '../BoxDiscount/BoxDiscount'
 import BoxClaimDiscount from '../BoxClaimDiscount/BoxClaimDiscount'
 import BoxAccordance from '../BoxAccordance/BoxAccordance'
+import './BoxBody.css'
 
 const BoxBody = () => {
   return (

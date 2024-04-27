@@ -7,7 +7,7 @@ const BoxDiscount = () => {
       <div className='minorBoxDiscount'>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="12" cy="12" r="12" fill="#2C7EF8" />
-          <mask id="mask0_74_172" style={{ 'mask-type': 'alpha' }} maskUnits="userSpaceOnUse" x="4" y="4" width="16" height="16">
+          <mask id="mask0_74_172" style={{ 'maskType': 'alpha' }} maskUnits="userSpaceOnUse" x="4" y="4" width="16" height="16">
             <rect x="4.7998" y="4.79999" width="14.4" height="14.4" fill="#D9D9D9" />
           </mask>
           <g mask="url(#mask0_74_172)">

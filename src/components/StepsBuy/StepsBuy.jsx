@@ -6,7 +6,7 @@ const StepsBuy = () => {
   return (
     <div className='boxStepsBuy'>
       <MinCompStepsBuy
-        message={'Cart Review'}
+        message={'Step 1 : Cart Review'}
         svg={
           <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="10.5" cy="10" r="9" fill="#85BF55" stroke="#85BF55" strokeWidth="2" />
@@ -18,7 +18,7 @@ const StepsBuy = () => {
 
 
       <MinCompStepsBuy
-        message={'Checkout'}
+        message={'Step 2 : Checkout'}
         svg={
           <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="10.5" cy="10" r="9" fill="#85BF55" stroke="#85BF55" strokeWidth="2" />
@@ -29,7 +29,7 @@ const StepsBuy = () => {
       />
 
       <MinCompStepsBuy
-        message={'Special Offer'}
+        message={'Step 3 : Special Offer'}
         svg={
           <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="10.1666" cy="10" r="9" fill="#2C7EF8" stroke="#2C7EF8" strokeWidth="2" />
@@ -40,7 +40,7 @@ const StepsBuy = () => {
       />
 
       <MinCompStepsBuy
-        message={'Confirmation'}
+        message={'Step 4 : Confirmation'}
         svg={
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="10" cy="10" r="9.5" stroke="#2C7EF8" />

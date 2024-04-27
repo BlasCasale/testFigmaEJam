@@ -8,3 +8,9 @@
     gap: 24px;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  .boxBody {
+    width: 1245px;
+  }
+}

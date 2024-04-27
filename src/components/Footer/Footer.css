@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
-    width: 100%;
     padding: 20px;
     background-color: #252F3D;
     margin-top: 50px;
@@ -30,5 +29,12 @@
     width: 201px;
     height: 13px;
     gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }

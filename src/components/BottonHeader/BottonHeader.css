@@ -19,3 +19,10 @@
     gap: 16px;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  .divBottomHeader {
+    width: 1500px;
+    padding: 30px 127px;
+  }
+}
