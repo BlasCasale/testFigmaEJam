@@ -25,3 +25,9 @@
     font-weight: 700;
   }
 }
+
+@media screen and (min-width:1500px){
+  .containerThick {
+    grid-area: info;
+  }
+}

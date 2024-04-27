@@ -12,5 +12,6 @@
   .boxStepsBuy {
     width: 1245px;
     justify-content: space-around;
+    grid-area: upper;
   }
 }

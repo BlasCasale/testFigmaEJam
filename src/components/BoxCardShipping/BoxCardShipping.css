@@ -19,3 +19,14 @@
     gap: 8px;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  .boxShipping {
+    width: 542px;
+    gap: 16px;
+  }
+
+  .minorBoxShipping {
+    justify-content: center;
+  }
+}

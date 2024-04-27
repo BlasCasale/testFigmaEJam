@@ -27,3 +27,13 @@
     color: #2C7EF8;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  .majorBoxDiscount {
+    width: 550px;
+    height: 56px;
+  }
+  .minorBoxDiscount {
+    width: 100%;
+  }
+}

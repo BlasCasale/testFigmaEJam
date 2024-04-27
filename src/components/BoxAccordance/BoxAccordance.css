@@ -4,17 +4,33 @@
     align-items: start;
     gap: 16px;
   }
-  
+
   .imgAccordance {
     width: 48px;
     height: 48px;
   }
-  
+
   .pAccordance {
     font-size: 12px;
   }
 
   .spanAccordance {
     font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .boxAccordance {
+    width: 550px;
+    height: 88px;
+  }
+
+  .imgAccordance {
+    height: 88px;
+    width: 88px;
+  }
+
+  .pAccordance {
+    font-size: 16px;
   }
 }

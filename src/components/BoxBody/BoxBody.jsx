@@ -1,5 +1,4 @@
 import React from 'react'
-import UpperText from '../UpperText/UpperText'
 import StepsBuy from '../StepsBuy/StepsBuy'
 import MiddleText from '../MiddleText/MiddleText'
 import BigImage from '../BigImage/BigImage'
@@ -8,21 +7,26 @@ import ThickContainer from '../ThickContainer/ThickContainer'
 import BoxDiscount from '../BoxDiscount/BoxDiscount'
 import BoxClaimDiscount from '../BoxClaimDiscount/BoxClaimDiscount'
 import BoxAccordance from '../BoxAccordance/BoxAccordance'
+import Review from '../Review/Review'
 import './BoxBody.css'
 
 const BoxBody = () => {
   return (
-    <div className='boxBody'>
-      <UpperText />
+    <main>
       <StepsBuy />
-      <MiddleText />
-      <BigImage />
-      <BoxInfo />
-      <ThickContainer />
-      <BoxDiscount />
-      <BoxClaimDiscount />
-      <BoxAccordance />
-    </div>
+      <div className='boxBody'>
+        <div className='boxInfo'>
+          <MiddleText />
+          <BoxInfo />
+          <ThickContainer />
+          <BoxDiscount />
+          <BoxClaimDiscount />
+          <BoxAccordance />
+        </div>
+        <BigImage />
+        <Review />
+      </div>
+    </main>
   )
 }
 

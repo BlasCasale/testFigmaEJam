@@ -33,10 +33,10 @@ const BoxInfo = () => {
             </svg>
             <p className='pStockProd'>12 left in Stock</p>
           </div>
+          <span className='spanInfoProd'>Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</span>
         </div>
       </div>
 
-      <span className='spanInfoProd'>Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</span>
     </article>
   )
 }

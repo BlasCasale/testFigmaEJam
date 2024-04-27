@@ -36,5 +36,6 @@
 @media screen and (min-width: 1500px) {
   .boxUpperText {
     width: 636px;
+    grid-area: upper;
   }
 }

@@ -1,0 +1,63 @@
+@media screen and (min-width: 1500px) {
+  .boxReview {
+    grid-area: review;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 24px;
+    gap: 18px;
+    height: 186px;
+    width: 575px;
+  }
+
+  .superiorBoxReview {
+    display: flex;
+    gap: 13px;
+  }
+
+  .imgReview {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+  }
+
+  .minorBoxReview {
+    display: flex;
+    gap: 10px;
+  }
+
+  .rigthBoxReview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 13px;
+    width: 237px;
+    height: 48px;
+  }
+
+  .pNameUser {
+    font-size: 14;
+    font-weight: 700;
+  }
+
+  .verifiedUserBox {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .pGreen {
+    font-size: 12px;
+    color: #5BB59A;
+  }
+
+  .hiddenImg {
+    display: none;
+  }
+
+  .pReview {
+    color: #4D5254;
+    font-size: 16px;
+  }
+}

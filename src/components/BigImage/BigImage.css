@@ -10,9 +10,18 @@
 
 @media ((min-height:1519px) and (min-width: 360px))  {
   .imgConditional {
-    display: initial;
+    display: inline;
     width: 100%;
     height: 328px;
     border-radius: 10px;
+    grid-area: img;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .imgConditional {
+    height: 591px;
+    width: 575px;
+    display: inline;
   }
 }
